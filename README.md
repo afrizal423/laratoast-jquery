@@ -1,4 +1,7 @@
 # Laratoast-jquery : Laravel Notification Package
+
+[![Latest Stable Version](http://poser.pugx.org/afrizalmy/laratoast-jquery/v)](https://packagist.org/packages/afrizalmy/laratoast-jquery) [![Total Downloads](http://poser.pugx.org/afrizalmy/laratoast-jquery/downloads)](https://packagist.org/packages/afrizalmy/laratoast-jquery) [![Latest Unstable Version](http://poser.pugx.org/afrizalmy/laratoast-jquery/v/unstable)](https://packagist.org/packages/afrizalmy/laratoast-jquery) [![License](http://poser.pugx.org/afrizalmy/laratoast-jquery/license)](https://packagist.org/packages/afrizalmy/laratoast-jquery)
+
 <p align="center"><img width="300" alt="laratoast" src="src/assets/img/pic1.png?raw=true"></p>
 This is a laravel notification wrapper build with https://kamranahmed.info/toast library.
 
