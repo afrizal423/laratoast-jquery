@@ -1,0 +1,33 @@
+{
+    "name": "afrizalmy/laratoast-jquery",
+    "description": "toast jquery for laravel",
+    "keywords": ["toast", "notification", "laravel", "php"],
+    "type": "package",
+    "authors": [
+        {
+            "name": "Afrizal",
+            "email": "afrizalyasin423@gmail.com",
+            "homepage": "https://github.com/afrizal423",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "afrizalyasin423@gmail.com",
+        "issues": "https://github.com/afrizal423/laratoast-jquery/issues",
+        "source": "https://github.com/afrizal423/laratoast-jquery",
+        "docs": "https://github.com/afrizal423/laratoast-jquery/README.md"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afrizalmy\\Laratoast\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
