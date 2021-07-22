@@ -57,4 +57,25 @@ class Laratoast
 
         return $this;
     }
+
+    public function show()
+    {
+        $script = '<script type="text/javascript">';
+        $messages = app()->session->get('laratoast');
+
+        if (! $messages) $messages = [];
+
+        $tmp ='';
+        foreach ($messages as $message) {
+            $script = '<script type="text/javascript">';
+            $script .= '$.toast(';
+            $script .= json_encode($message);
+            $script .= ');';
+            $script .= '</script>';
+            $tmp .= $script;
+        }
+        // $script .= '</script>';
+        session()->forget('laratoast');
+        return $tmp;
+    }
 }

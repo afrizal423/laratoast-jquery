@@ -1,4 +1,5 @@
 <?php
+use Afrizalmy\Laratoast\Laratoast;
 if (! function_exists('laratoast')){
     function laratoast($message = null, $title = null, $type = null, $position = null, array $options = []){
         $toaster =  app('laratoast');
@@ -37,7 +38,10 @@ if (! function_exists('laratoast_render')) {
      */
     function laratoast_render()
     {
-        return view('vendor.laratoast.laratoast');
+        // return view('vendor.laratoast.laratoast');
+        $laratoast = new Laratoast();
+        return $laratoast->show();
+
     }
 }
 
