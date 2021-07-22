@@ -3,7 +3,7 @@
     $.toast({
 
 
-    text: '{{ $laratoast['text'] }}', // Text that is to be shown in the toast
+    text: '{!! $laratoast['text'] !!}', // Text that is to be shown in the toast
     heading: '{{ $laratoast['heading'] }}', // Optional heading to be shown on the toast
     icon: '{{ $laratoast['icon'] }}', // Type of toast icon
     showHideTransition: '{{ $laratoast['showHideTransition'] }}', // fade, slide or plain
