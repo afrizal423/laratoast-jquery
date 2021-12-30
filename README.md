@@ -8,6 +8,7 @@ This is a laravel notification wrapper build with https://kamranahmed.info/toast
 
 | Laravel Version     | Is Working? |
 | ---      | ---       |
+| 9.x | Yes        |
 | 8.x | Yes         |
 | 7.x | Yes        |
 | 6.x | Yes        |
@@ -84,7 +85,7 @@ After that add the `@laratoast_render` at the bottom of your view to actualy ren
 <html>
     <head>
         <title>afrizalmy/laratoast-jquery</title>
-        @laratoast_jquery <!-- optional -->
+        @laratoast_jquery <!-- if you don't have jquery -->
         @laratoast_css
     </head>
     <body>
